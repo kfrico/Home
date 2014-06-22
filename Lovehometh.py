@@ -14,7 +14,7 @@ import threading
 import random
 import time
 
-
+tests = []
 id_list = []
 lock = threading.Condition()
 is_status = '啟動'
